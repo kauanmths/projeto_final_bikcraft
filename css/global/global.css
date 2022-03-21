@@ -12,13 +12,14 @@ img{
     max-width: 100%;
 }
 
-span{
-    color: var(--p1);
+img[src$=".jpg"]{
+    border-radius: 4px;
 }
 
 a{
     display: inline-block;
     text-decoration: none;
+    color: inherit;
 }
 
 ul{

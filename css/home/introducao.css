@@ -4,12 +4,13 @@
 }
 
 .introducao{
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
+}
+
+.introducao span{
+    color: var(--p1);
 }
 
 .introducao img{
