@@ -19,6 +19,24 @@
     background-image: linear-gradient(to bottom, #ffb60d, #e59317);
 }
 
+.link{
+    text-transform: uppercase;
+    color: var(--p1);
+    font: 600 1.5rem/1.5 'Poppins', sans-serif;
+}
+
+.link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.link:hover{
+    color: var(--w);
+}
+
 @media (max-width: 850px){
 
     .botao{
