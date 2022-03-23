@@ -53,6 +53,10 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    .parceiros li{
+        padding: 20px;
+    }
+
     .parceiros li:nth-child(5),
     .parceiros li:nth-child(6){
         border-bottom: 1px solid var(--c2);
